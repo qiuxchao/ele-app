@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- 样式重置 -->
+    <link rel="stylesheet" href="css/reset.css" />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 底部导航图标 -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- 高德定位 -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=bb82a33ca1ac814d243d5497b7d19eeb">
+    </script>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!-- built files will be auto injected（构建的文件将被自动注入） -->
   </body>
 </html>
