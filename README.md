@@ -9,7 +9,7 @@
 该项目实现的功能有：短信验证码登录、高德定位、商家排序筛选、商家搜索、商品列表详情、购物车添加与清空、订单生成与支付等；<br>
 使用Vue全家桶开发，部分页面效果例如轮播、弹框等都使用了Mint-ui移动端组件库，页面滑动效果使用了better-scroll模块，数据请求使用了Axios模块；<br>
 本项目实现了订餐类项目的基本业务流程：
-<img src="https://cdn.jsdelivr.net/gh/qiuxchao/CDN/eleProject/1.png)
+<img src="https://cdn.jsdelivr.net/gh/qiuxchao/CDN/eleProject/1.png" />
 
 <b>技术栈：Vue全家桶 + Mint-ui + Axios + better-scroll</b> 
 
